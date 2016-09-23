@@ -5,6 +5,7 @@ height: 500px;
 margin-left: auto;
 margin-right: auto;
 margin-top: 15px;
+margin-bottom: 15px;
 }
 
 #input-wrapper{
@@ -13,6 +14,8 @@ margin-top: 15px;
   margin-right: auto;
   position: relative;
   height: 100px;
+  text-align: center;
+  font-size: 40px;
 }
 
 #input-wrapper-content{
@@ -23,7 +26,7 @@ margin-top: 15px;
 }
 
 .colored-square{
-  display: inline-block;
+  float:left;
   margin: 0px;
   padding: 0px;
   background-color: #000;

@@ -6,13 +6,11 @@ $(document).ready(function(){
 
 $(document).on('mouseenter', '.colored-square', function(){
   var newColor = increase_brightness(rgb2hex($(this).css('background-color')), 25);
-  //console.log(newColor + " " + $(this).css('background-color'));
   $(this).css('background-color', newColor);
 })
 
 $( "#set-grid" ).submit(function( event ) {
   generateGrid($('input[name=size_input]').val());
-  alert( $('input[name=size_input]').val() );
   event.preventDefault();
 });
 
