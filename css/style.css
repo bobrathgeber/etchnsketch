@@ -1,0 +1,30 @@
+#content-wrapper{
+background-color: #AAAAAA;
+width: 500px;
+height: 500px;
+margin-left: auto;
+margin-right: auto;
+margin-top: 15px;
+}
+
+#input-wrapper{
+  width: 500px;
+  margin-left:auto;
+  margin-right: auto;
+  position: relative;
+  height: 100px;
+}
+
+#input-wrapper-content{
+  position:absolute;
+  width: 100%;
+  bottom:0;
+  text-align: center;
+}
+
+.colored-square{
+  display: inline-block;
+  margin: 0px;
+  padding: 0px;
+  background-color: #000;
+}
